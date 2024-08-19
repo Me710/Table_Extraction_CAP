@@ -3,3 +3,4 @@ pillow
 pytesseract
 camelot-py[cv]
 PyPDF2==1.26.0
+pdfplumber
