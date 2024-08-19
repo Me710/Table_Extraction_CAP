@@ -1,0 +1,1 @@
+Set {V_Modes_SW_Mode}to E_Modes_Init

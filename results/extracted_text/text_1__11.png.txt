@@ -1,0 +1,27 @@
+— RETURN Function retum=-"CBIT Test Result CBIT Result y CBlT Test Rast +
+Getthe OVSP config table integrity status ] [Provide the OVSP cConfig table integrity sStatus]}: correspond
+to the following CALL:
+
+* CALL Config_Get_Integrity_Status with the following parameters: +
+— RETURN __ Function———return: ———“OVSP Confi table Integrity*
+Statusv-OVSP—Config_Validity’V_Cenfig_OVSP _Cig_intagrity}
+
+Get the CAN triggered test command] {Provide the CAN Triggered tTest command}corresponds to thi
+following CALL:
+
+* CALL CAN_Get_TriggTest_Cmd with the following parameters: *
+— RETURN __ Function —————_return: —————_‘CAN Triggered Test*
+
+Get the engine speed level] [Provide the engine sS peed iLevell: corresponds to the following CALL:
+
+* CALL OVSP_Get_Engine_SpeedLevel with the following parameters: *
+
+— RETURN Function ————______ return: ——_——____“Engine Speei*
+Get the CAN triggered test speed] [Provide the CAN tTriggered tTest speed}:_corresponds to the followin:
+CALL;
+
+. CALL CAN_Get_Test_Speed with the following parameters: +
+——RETURN __ Function ———_—__ return: ——————_"CAN Triggered Tegt*
+speedy_TggTest speed" V_CAN_Test_speed.U_Value_32BitFloat}
+
+[Managethe Test 5 peed}:-corresponds tothe following CALL

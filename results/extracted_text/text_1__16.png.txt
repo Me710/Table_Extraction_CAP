@@ -1,0 +1,18 @@
+{V_Modes_SW_
+{V_Modes_SW {v_Modes_SW_Mo | {v_Modes_SW_Mo Mode}is equal
+Modetis equal de}is equal to de}is equal to to Allthe other cases
+qua’ | E_Modes Operatic | E_Modes_Degrade A
+to E_Modes_Init | ~- nal - a E_Modes_Trigg
+eredTest
+CALL CalCALL| CALL CalCALL | CALL CalCALL | CALL CallCALL
+Modes_Manage|Modes_Manage_0|/Modes_Manage_D|Modes_Manage| ‘’- ode }to ue
+_Init_Tr perational_Tr egraded_Tr _TriggTest_Tr E Modes Fail
+Effects {V_Modes_SW_Mode}is equal to E_Modes_Fail All the other cases
+CALL DrvGPI0_Write with INDRVGPIO_OUT_OSARM_CMD and
+E_OVSP_SW_Cmd_On
+[Provide-G et the flag indicating there is a fFailure to write in FlexNVM
+“"v-Leg to—WeriteLogbook failure to
+write’{¥_Legbeek_Faihireto—Write} is All4he other cases No effect
+FALSE
+[Wait until an external interrupt is No effect
+executed [Halt the micracontrollarl

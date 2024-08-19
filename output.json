@@ -1,0 +1,268 @@
+[
+    {
+        "col1": null,
+        "col2": "Causes",
+        "col3": null,
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": "",
+        "col2": "AlwaysALWAYS",
+        "col3": null,
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "[Get the CBIT Test Result][Provide the CBIT tTest rResult]",
+        "col3": null,
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "\u201cCBIT Test",
+        "col3": "",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "Resultv_CBIT_Result{",
+        "col3": null,
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "V_CBIT_Test_Result}",
+        "col3": "All the other cases",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "\u201d is equal to",
+        "col3": "",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "E_CBIT_Fatal_Error",
+        "col3": null,
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "",
+        "col3": "[Provide Get the OVSP cConfig table iIntegrity sStatus]",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "\u201cOVSP Config table",
+        "col4": "",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "Integrity",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "Statusv_OVSP_Config_",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "Validity\u201d{V_Config_OVS",
+        "col4": "All the other cases",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "P_Cfg_Integrity} is equal",
+        "col4": "",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "to",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "E_Config_Integrity_KO",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "",
+        "col4": "[Provide Get the CAN tTriggered tTest",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "command]\n[Provide Get the eEngine sSpeed lLevel]",
+        "col5": null
+    },
+    {
+        "col1": "Effects",
+        "col2": null,
+        "col3": null,
+        "col4": "\u201cCAN Triggered Test",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": "Set",
+        "col3": null,
+        "col4": "commandv_TriggTest_Cmd{V_CAN_T\nriggTest_cmd}\u201d is equal to",
+        "col5": "All"
+    },
+    {
+        "col1": null,
+        "col2": "{V_Modes_SW_Mode}",
+        "col3": null,
+        "col4": "E_CAN_TriggTest_On AND \u201cEngine",
+        "col5": "the"
+    },
+    {
+        "col1": null,
+        "col2": "to E_Modes_Fail",
+        "col3": null,
+        "col4": "Speed Levelv_Engine_SpeedLevel\u201d",
+        "col5": "other"
+    },
+    {
+        "col1": null,
+        "col2": "",
+        "col3": "Set",
+        "col4": "{V_OVSP_Context_Out.V_Engine_Sp",
+        "col5": "cases"
+    },
+    {
+        "col1": null,
+        "col2": "",
+        "col3": "{V_Modes_SW_Mode}",
+        "col4": "eedLevel} is equal to",
+        "col5": ""
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "to E_Modes_Degraded",
+        "col4": "E_OVSP_SW_Low_Speed",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "CallALLCALL",
+        "col4": "Set {V_Modes_SW_Mode} to",
+        "col5": ""
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "DrvFTM_Stop_NxOSy_",
+        "col4": "E_Modes_TriggeredTest",
+        "col5": ""
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "Acq",
+        "col4": null,
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "[Provide Get the CAN tTriggered tTest",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": "",
+        "col4": "speed]",
+        "col5": ""
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "CallALLCALL\nDrvFTM_Stop_NxOSy_Acq",
+        "col5": "No"
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": null,
+        "col5": "effect"
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "CallALLCALL",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "DrvFTM_Manage_TSpeed with IN",
+        "col5": ""
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "\u201cCAN Triggered Test",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "speedv_TriggTest_Speed\u201d[Manage the",
+        "col5": null
+    },
+    {
+        "col1": null,
+        "col2": null,
+        "col3": null,
+        "col4": "Test Speed]",
+        "col5": null
+    }
+]

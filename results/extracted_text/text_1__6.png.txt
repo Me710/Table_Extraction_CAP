@@ -1,0 +1,14 @@
+AlwaysALWAYS.
+Get the CBIT Test ResultProvide the CBIT tTest rResu
+“CBIT Test
+Resultyv-CBIT Result" CBIT Test Result} AlHthe other cases
+is equal to E_CBIT_Fatal_Error
+[Get the OVSP Config table Integrity Status’
+stauee Config table Integrity . Allthe
+StalusyOVS-2—Config—Validity” other
+V_Config_OVSP_Clg_integriv}s | cases
+Set VV Modes SW Mode}to E Modes Fail equal to E_Config_Integrity_OK
+Set {V_Modes_SW_Mode}to
+E_Modes_Operational
+CALL No effect
+DrvFTM_Start_NxOSy Acq [|

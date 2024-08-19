@@ -1,0 +1,18 @@
+1.5.1.4. Requirements ;
+REQ-SDDD_Modes_Manage_Init_Tr_00015-01 “
+[COV.REQ_OVSP_SRD-0000011-COV REQ OVSP SRD.00002- COV REQ OVSP SAD.00004;
+COVREQ-OVSP -SRD-00021)
+Modes_Manage_init_Tr -
+[Get the OVSP side identification
+Get the PBIT test result
+“OVSP Side Identification” is equal to
+BOOT_SIDE_ID_INVALID OR “PBIT test Allthe other cases
+Result” is equal to E_PBIT Failed
+Get the OVSP config table integrity status |
+“OVSP Config table
+Integrity Status” is
+Set {V_Modes_SW_Mode}to equal to All the other cases
+E Modes Fail E_Config_Integrity
+KO
+Set Set VV Modes SW Mode}ta
+Modes SW_Mod E_Modes_ Operational

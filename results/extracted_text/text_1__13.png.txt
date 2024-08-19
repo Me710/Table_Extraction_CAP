@@ -1,0 +1,41 @@
+Modes_Manage_TriggTest_Tr +
+AlwaysALWAYS. |
+Provide Get the CBIT tTest rResul |
+“CBIT Test
+Resulty CBIT Result
+4Av_CBIT_Test Resul Alltheother cases
+§}" is equal to
+E_CBIT_Fatal_Error
+Provide-G et the CAN triggered tFest command,
+1
+“CAN Triggered Test
+command ‘CAN Triggered Test _ . | Alkthe other
+is equaltoE CAN TriggTest Off = cases
+Set {V_Modes_SW_Mode}to E_Mades_Operational
+[Provide G et the OVSP side identification,
+“OVSP side
+identification, OVSP Sided catia oy <e 8 s et Allthe other cases
+equal to BOOT_SIDE_ID_LS
+CALLDWGPIO WritewithIn| sid
+DRVGPIO OUT CAM _CMD1 Call CALL ALL |
+E_OVSP_SW Cmd_Offfivete OE eP_C AM. Provide-Get the||
+Set the CAM first command onthe eneration CAN a
+{V_Modes_SW_Mod @Discrete- outpud] fest speed
+e}to E_Modes_Fail CallALLCALL DrvFTM Stop Tspeed AERRHCALL ||
+DrvFTM—Manag/|
+CALL DrvFTM Init TSpeedOut Values e TSpeed with |*
+CALL Call CALL DrvFTM Start NxOSy Acq | IN“CAN ||
+CALL DrvGPIO_ Write with JN Triggered Test || '
+DRVGPIO_OUT CAM _CMD2 and PEecyee es | *
+E_OVSP_SW_Cmd_OffilWrite the CAM second tSpeed"Manag|
+command_on the dDiscrete output] ethe testspeed]
+CALL DrvGPIO_ Write with IN
+DRVGPIO_OUT DOUTINHIB and
+E_OVSP_ SW Cmd_OfffWrtethe DOUTINHIS.
+command onthe dDiscrete output]
+CALL DrvGPIO_Write with IN
+DRVGPIO OUT OSARM CMD and
+E_OVSP_SW_Cmd_Offfritethe OSARM command
+onthe dBiscrete cutout]
+CALL CallCALL CAN Reset TestDiscrete_Cmd
+[Get the CBIT test result] [Provide the CBIT tTest Result}: corresponds to the following CALL:

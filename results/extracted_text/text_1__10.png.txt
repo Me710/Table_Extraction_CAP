@@ -1,0 +1,37 @@
+AlwaysAL WAYS.
+Get the CBIT Test Result}iProvide the CBIT trastResuiy
+“CBIT Test
+Resulty-CBIT Resulty
+VCBITTest Res} AlHhe other cases
+"is equal to
+E_CBIT_Fatal_Error
+[Provide G et the OVSP cConfig table ilntegrity sStatus,
+“OVSP Config table
+Integrity
+Statusy-OVSP—Config—
+Validity {Vv Config OVS Allthe other cases
+P_Cfgtntegrtyt is equal
+to
+E_Config_Integrity_KO
+Provide G et the CAN tTriggered thest
+command,
+[Provide Get the eEngine sSpeed ILeve|
+“CAN Triggered Test
+Set commandy—TriggTest_Cmdf¥_-CAN—T
+riggFestemd}’ is equal to All
+Modes OW pode} E_CAN_TriggTest_On AND “Engine | the
+oF _Modes_ral Speed Level i | other
+Set ALOVSP Context Outy Engine Sp | cases
+{V_Modes_SW_Mode} eedLevel}is equal to
+to E_Modes_Degraded E_OVSP_SW_Low_Speed
+GaWttCALl | Set V Modes SW Mode}to |_|
+DrvFTM_Stop_NxOSy_ E_Modes_TriggeredTest
+Acq Provide Get the CAN triggered tLest
+speed, [|
+CallALLCALL | no!
+DrvFTM_Stop_NxOSy_ Acq effect
+CalALLCALL
+DrvFTM_ Manage TSpeed with IN
+“CAN Triggered Test
+speedy TriggTest Speed”[Manage the
+TestSpeed]

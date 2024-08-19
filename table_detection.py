@@ -1,7 +1,9 @@
 import cv2
 import numpy as np
 import os
+import pytesseract
 
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 def has_table_boundaries(contour, vertical_lines_img, horizontal_lines_img, min_vertical_lines=3,
                          min_horizontal_lines=3):
@@ -14,6 +16,14 @@ def has_table_boundaries(contour, vertical_lines_img, horizontal_lines_img, min_
 
     return vertical_lines >= min_vertical_lines and horizontal_lines >= min_horizontal_lines
 
+def extract_text_from_table(img):
+    # Preprocess the image
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
+
+    # Perform text extraction
+    text = pytesseract.image_to_string(thresh, lang='eng', config='--psm 6')
+    return text
 
 def table_detection(img_path):
     img = cv2.imread(img_path)
@@ -61,14 +71,23 @@ def table_detection(img_path):
         if hier[1] != -1:
             count += 1
             cropped = img[y:y + h, x:x + w]
-            if True:
-                cv2.imwrite("./results/cropped/crop_" + str(count) + "__" + img_path.split('/')[-1], cropped)
+            
+            # Extract text from the cropped table
+            extracted_text = extract_text_from_table(cropped)
+            
+            # Save the cropped image
+            cv2.imwrite(f"./results/cropped/crop_{count}__{os.path.basename(img_path)}", cropped)
+            
+            # Save the extracted text
+            with open(f"./results/extracted_text/text_{count}__{os.path.basename(img_path)}.txt", "w") as f:
+                f.write(extracted_text)
+            
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-    if True:
-        cv2.imwrite("./results/table_detect/table_detect__" + img_path.split('/')[-1], table_segment)
-        cv2.imwrite("./results/bb/bb__" + img_path.split('/')[-1], img)
+    cv2.imwrite(f"./results/table_detect/table_detect__{os.path.basename(img_path)}", table_segment)
+    cv2.imwrite(f"./results/bb/bb__{os.path.basename(img_path)}", img)
 
-
-{table_detection('./form/' + i) for i in os.listdir('./form/') if
- i.endswith('.png') or i.endswith('.PNG') or i.endswith('.jpg') or i.endswith('.JPG')}
+# Process all images in the 'form' directory
+for i in os.listdir('./form/'):
+    if i.lower().endswith(('.png', '.jpg')):
+        table_detection(os.path.join('./form/', i))
