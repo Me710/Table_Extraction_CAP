@@ -1,0 +1,8 @@
+{'condition': 'Always', 'level': 0, 'action': '[Get the OVSP side identification] [Get the PBIT test result]'}
+{'condition': 'Always', 'level': 0, 'action': ''}
+{'condition': 'Always', 'level': 0, 'action': ''}
+{'condition': 'Always', 'level': 0, 'action': ''}
+{'condition': 'Always', 'level': 0, 'action': ''}
+{'condition': 'Always', 'level': 0, 'action': ''}
+{'condition': 'All the other cases  [Get the OVSP config table integrity status] “OVSP Config table Integrity Status” is equal to E_Config_Integrity_ KO', 'level': 1, 'action': 'Set {V_Modes_SW_Mod'}
+{'condition': 'All the other cases', 'level': 2, 'action': 'Set {V_Modes_SW_Mode} to E_Modes_Operational'}

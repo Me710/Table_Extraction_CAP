@@ -1,0 +1,54 @@
+[
+    {
+        "row1col1": "Causes"
+    },
+    {
+        "row2col1": "Always"
+    },
+    {
+        "row3col1": "[Get the OVSP side identification]"
+    },
+    {
+        "row4col1": "[Get the PBIT test result]"
+    },
+    {
+        "row5col1": "\u201cOVSP Side Identification\u201d is equal to"
+    },
+    {
+        "row6col1": "BOOT_SIDE_ID_INVALID OR \u201cPBIT test",
+        "row6col2": "All the other cases"
+    },
+    {
+        "row7col1": "Result\u201d is equal to E_PBIT_Failed"
+    },
+    {
+        "row8col0": "Effects",
+        "row8col2": "[Get the OVSP config table integrity status]"
+    },
+    {
+        "row9col2": "\u201cOVSP Config table"
+    },
+    {
+        "row10col2": "Integrity Status\u201d is"
+    },
+    {
+        "row11col1": "Set {V_Modes_SW_Mode} to",
+        "row11col2": "equal to",
+        "row11col3": "All the other cases"
+    },
+    {
+        "row12col1": "E_Modes_Fail",
+        "row12col2": "E_Config_Integrity_"
+    },
+    {
+        "row13col2": "KO"
+    },
+    {
+        "row14col2": "Set",
+        "row14col3": "Set {V_Modes_SW_Mode} to"
+    },
+    {
+        "row15col2": "{V_Modes_SW_Mod",
+        "row15col3": "E_Modes_Operational"
+    }
+]
